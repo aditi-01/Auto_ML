@@ -13,7 +13,7 @@ if os.path.exists('./dataset.csv'):
 
 with st.sidebar:
     st.title("Automated Machine Learning Application")
-    st.info("By Atul Anand")
+    st.info("By Aditi Kumari")
     st.image("https://www.analyticsinsight.net/wp-content/uploads/2020/05/AutoML.jpg", width=250)
     choose = st.radio("Options", ['Upload', 'Profiling', 'Model Building', 'Download Model'])
     st.info("This application will help you to explore your data, build and train a ML Model, save your model.")
